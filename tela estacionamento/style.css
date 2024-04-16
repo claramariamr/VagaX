@@ -1,0 +1,174 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #ebebeb;
+    background-size: cover;
+    font-family: Arial, sans-serif;
+
+}
+
+#placaVeiculo,
+#placaRemover {
+    padding: 10px;
+    background-color: #eee;
+    border-radius: 8px;
+    border: 1px solid #eee;
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0);
+    margin: -2% auto 20px;
+}
+
+#cadastro-remocao {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.651);
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
+    margin: 8% auto 20px;
+    text-align: center;
+}
+
+#lista-veiculos {
+    width: 60%;
+    background-color: rgba(255, 255, 255, 0.466);
+    color: rgb(0, 0, 0);
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.301);
+    margin: 20px auto;
+    text-align: center;
+}
+
+#encerrar {
+    width: 60%;
+    text-align: center;
+    margin: 15px auto;
+
+}
+
+button {
+    background-color: #004AAD;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin: -1% auto 20px;
+
+}
+
+button:hover {
+    background: linear-gradient(to bottom, #004AAD, #090179);
+    transition: all 1.50s ease-in-out;
+}
+
+#resultado,
+#listaVeiculos {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#listaVeiculos {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    overflow-x: auto;
+}
+
+#veiculosList {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#veiculosList li {
+    margin-bottom: 5px;
+    color: #000000;
+}
+
+#veiculosList li.veiculo-item {
+    margin-bottom: 10px;
+}
+
+
+@media screen and (max-width:768px) {
+    #cadastro-remocao {
+        width: 60%;
+        height: 25%;
+        margin: auto;
+        margin-top: 25%;
+    }
+
+    #lista-veiculos {
+        margin-top: -30%;
+    }
+
+    #encerrar {
+        margin-top: -25%;
+    }
+
+    #placaVeiculo {
+        margin: 10% auto 20px;
+        margin-top: 10px;
+        text-align: center;
+        align-items: center;
+        margin-right: 25px;
+    }
+
+    #placaRemover {
+        margin: 10% auto 20px;
+        margin-top: 10px;
+        text-align: center;
+        margin-right: 25px;
+    }
+
+
+
+}
+
+@media screen and (max-width: 560px) {
+    #placaVeiculo {
+        margin: 10% auto 20px;
+        margin-top: 10px;
+        text-align: center;
+        align-items: center;
+
+    }
+
+    #placaRemover {
+        margin: 10% auto 20px;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    #cadastro-remocao {
+        width: 60%;
+        height: 62%;
+        margin: auto;
+        margin-top: 10%;
+    }
+
+    #lista-veiculos {
+        margin-top: -5%;
+    }
+
+    #encerrar {
+        margin-top: 5%;
+    }
+
+}

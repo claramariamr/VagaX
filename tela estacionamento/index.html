@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>VAGA X</title>
+</head>
+
+<body>
+    <div id="container">
+
+        <!-- Seção de Cadastro/Remoção de Veículo -->
+        <div id="cadastro-remocao">
+            <label id="placaLabel" for="placaVeiculo"></label>
+            <input type="text" id="placaVeiculo" name="placaVeiculo" placeholder="Digite a placa">
+            <button class="meu-botao" onclick="cadastrarVeiculo()">Cadastrar Veículo</button>
+
+            <label for="placaRemover"></label>
+            <input type="text" id="placaRemover" name="placaRemover" placeholder="Digite a placa">
+            <button class="meu-botao" onclick="removerVeiculo()">Remover Veículo</button>
+            <br><br>
+
+            <div id="resultado"></div>
+        </div>
+
+        <div id="lista-veiculos">
+            <div id="listaVeiculos">
+                <ul id="veiculosList"></ul>
+            </div>
+            <br><br>
+
+            <button class="meu-botao" onclick="listarVeiculos()">Atualizar Lista</button>
+        </div>
+
+        <div id="encerrar">
+            <a href="../Tela Login/login.html"><button class="botao-encerrar">Encerrar</button></a>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "mmurqXz6e3swvhhKn64gc6amp4x2tCnA6N9rBpf2zrqSD1b3oejSOEzl5FzcmCxY21q5zLsjavVwGYQNL8JJZw==",
+  "success": true,
+  "projectFilePath": "c:\\Projetos\\trilha-net-fundamentos-desafio\\DesafioFundamentos\\Tela Login\\DesafioFundamentos.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.25\\microsoft.netcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.25\\microsoft.windowsdesktop.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.25\\microsoft.aspnetcore.app.ref.6.0.25.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.25\\microsoft.netcore.app.host.win-x64.6.0.25.nupkg.sha512"
+  ],
+  "logs": []
+}
